@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+h1{
+padding-top: 2rem;
+}
+p{
+padding-bottom: 2rem;
+}
+
+.numeri{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid grey;
+    padding:50px;
+}
+.numeri>span{
+    font-size: 2rem;
+}
